@@ -8,11 +8,16 @@
 @import "./menu.css";
 
 /* Home */
+#home {
+  padding-top: 65px;
+}
+
 .intro-content {
   position: relative;
   display: grid;
-  padding: 13rem;
-  grid-template-columns: 1fr 1.5fr;
+  padding: 18rem 3rem;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
   gap: var(--gap);
 }
 
@@ -46,15 +51,18 @@
   min-height: 100vh;
 }
 
-.grid-main-heading {
-  margin-bottom: 1rem;
-}
-
 .grid-description {
   padding-bottom: 5rem;
 }
 
 .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+  counter-reset: grid-counter;
+}
+
+.grid-jobs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap);
@@ -81,7 +89,7 @@
 
 .gallery-img {
   width: 100%;
-  max-width: 36rem;
+  max-width: 36rem; /*36rem*/
   max-height: 36rem;
   overflow: hidden;
 }
@@ -162,16 +170,12 @@
 }
 
 .footer a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .footer p {
   margin: 0;
   padding: 1.5rem;
-}
-
-.heart {
-  color: var(--secondary-color);
 }
 
 .close-menu {
@@ -195,8 +199,15 @@
 }
 
 @media (max-width: 800px) {
+  #home {
+    padding-top: 20px;
+    text-align: center;
+  }
+
   .intro-content {
     grid-template-columns: 1fr;
+    padding-top: 13rem;
+    padding-bottom: 13rem;
   }
 
   .gallery-img {
@@ -214,6 +225,10 @@
   }
 
   .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-jobs {
     grid-template-columns: 1fr;
   }
 
