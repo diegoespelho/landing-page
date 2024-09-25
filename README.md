@@ -25,7 +25,7 @@ Projeto realizado durante sessão de HTML e CSS do curso de Javascript e Typescr
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,javascript,git,github)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,git,github)](https://skillicons.dev)
 
 ## 💻 Projeto
 
