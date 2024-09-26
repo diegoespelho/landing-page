@@ -1,7 +1,7 @@
 <h1 align="center">Landing Page</h1>
 
 <p align="center">
-Projeto realizado durante sessão de HTML e CSS do curso de Javascript e Typescript do Professor Luiz Otávio Miranda na plataforma Udemy.
+Projeto realizado durante seção de HTML e CSS do curso de Javascript e Typescript do Professor Luiz Otávio Miranda na plataforma Udemy.
 </p>
 
 <p align="center">
@@ -21,15 +21,15 @@ Projeto realizado durante sessão de HTML e CSS do curso de Javascript e Typescr
   <img alt="Landing Page" src=".github/preview.jpg" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias e Ferramentas
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,javascript,git,github)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,git,github)](https://skillicons.dev)
 
 ## 💻 Projeto
 
-Landing page para consolidação do aprendizado durante seesão de HTML e CSS do curso.
+Landing page para consolidação do aprendizado durante seção de HTML e CSS do curso.
 
 - [Acesse o projeto finalizado aqui](https://diegoespelho.github.io/landing-page/)
 
